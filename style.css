@@ -1,0 +1,503 @@
+/* 
+Background Colors:
+#ffffff
+#e5e5e5
+#343338
+Text Colors:
+#ffffff
+#c69946
+#7a91a3
+#828282
+#9f6236
+#3f3e44
+#000000 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sen", sans-serif;
+  /* font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; */
+}
+
+/* ------------------------------- NavBar ------------------------------- */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6px;
+  /* padding-top: 4px; */
+}
+nav > img {
+  padding-top: 8px;
+  padding-left: 32px;
+  padding-right: 26px;
+}
+/* 
+#space-left {
+  padding-left: 5px;
+} */
+
+header {
+  background-image: url("./images/welcome.png");
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 953px;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+nav > ul {
+  display: flex;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.first-nav {
+  gap: 32px;
+}
+
+.last-nav {
+  gap: 26px;
+}
+
+/* ------------------------------- Main Section ------------------------------- */
+main {
+  color: #ffffff;
+  text-align: center;
+}
+.right {
+  margin-left: 550px;
+  margin-top: 162px;
+}
+
+.txt-1 {
+  font-size: 20px;
+  color: #c69946;
+  padding-bottom: 10px;
+  line-height: 24px;
+  padding-left: 12px;
+}
+
+.right > h2 {
+  color: #ffffff;
+  font-size: 65px;
+  line-height: 65px;
+  font-family: SeoulHangang;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.font-family-seoul {
+  font-family: SeoulHangang;
+}
+
+.right > h1 {
+  color: #7a91a3;
+  font-size: 95px;
+  line-height: 95px;
+  font-weight: 400;
+  font-family: SeoulHangang;
+  font-style: normal;
+  /* letter-spacing: 0.05em; */
+}
+
+.txt-2 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #828282;
+  padding: 0 190px 0 202px;
+  margin-top: 28px;
+}
+.style-bottom {
+  padding-top: 2px;
+  padding-left: 12px;
+}
+
+.moved {
+  position: absolute;
+  left: 645px;
+  top: 102px;
+}
+
+.right button {
+  height: 50px;
+  width: 130px;
+  color: #c69946;
+  cursor: pointer;
+  border: 1px solid #c69946;
+  border-bottom: 2px solid #c69946;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Sen", sans-serif;
+  padding-bottom: 2px;
+  /* line-height: 24px; */
+  margin: 48px 0 300px 12px;
+}
+
+/* ------------------------------- About US Section ------------------------------- */
+
+.about-us {
+  text-align: center;
+  margin-top: 108px;
+}
+
+.head {
+  color: #c69946;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.title {
+  color: #3f3e44;
+  font-size: 42px;
+  font-weight: 400;
+  font-family: SeoulHangang;
+  margin-top: 3px;
+}
+
+.img-design {
+  margin-top: 19px;
+}
+
+.description {
+  color: #7a91a3 !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  margin: 0 130px;
+  margin-top: 40px;
+  line-height: 1.4;
+}
+
+/* ------------------------------- Signature Cocktails Section ------------------------------- */
+
+.signature-cocktail {
+  text-align: center;
+  margin-top: 128px;
+  margin-bottom: 52px;
+}
+
+/* ------------------------------- Cocktails Card 1, 2, 3 & 4 ------------------------------- */
+
+.cocktail-1,
+.cocktail-2,
+.cocktail-3,
+.cocktail-4 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cocktail-1,
+.cocktail-3 {
+  margin: 0 135px 0 134px;
+}
+
+.cocktail-2,
+.cocktail-4 {
+  margin: 0 134px 0 164px;
+}
+
+.cocktail-2,
+.cocktail-3,
+.cocktail-4 {
+  margin-top: 92px;
+}
+
+.detail > img,
+.contact-us > img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 42px;
+  margin-top: 19px;
+}
+
+.pad-right {
+  margin-right: 2px;
+}
+
+.detail {
+  margin-top: 61px;
+
+  width: 272px;
+  height: 383px;
+}
+
+.card {
+  width: 691px;
+  height: 471px;
+}
+.card-2 {
+  width: 690px;
+  height: 470.906px;
+}
+
+.list > p {
+  font-size: 20px;
+  color: #7a91a3;
+  margin-bottom: 22px;
+  font-weight: 400;
+}
+
+.decore-1 {
+  position: absolute;
+  left: 82.92%;
+  top: 316.4%;
+}
+.decore-2 {
+  position: absolute;
+  left: 9.3%;
+  top: 403.8%;
+}
+
+.decore-3 {
+  position: absolute;
+  left: 82.92%;
+  top: 491%;
+}
+
+.decore-4 {
+  position: absolute;
+  left: 9.3%;
+  top: 578.6%;
+}
+
+/* ------------------------------- Contact US Section ------------------------------- */
+
+.contact-us {
+  text-align: center;
+}
+
+.contact-us > button {
+  height: 50px;
+  width: 130px;
+  color: #c69946;
+  cursor: pointer;
+  border: 1px solid #c69946;
+  border-bottom: 2px solid #c69946;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Sen", sans-serif;
+  margin-top: 101px;
+  margin-bottom: 64px;
+}
+
+.pad-right-long {
+  padding-right: 20px !important;
+  margin-bottom: 60px !important;
+}
+
+/* ------------------------------- Info  Section ------------------------------- */
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  width: 1079px;
+  height: 537px;
+  margin: 0 135px;
+  background-color: #e5e5e5;
+}
+.part1 {
+  padding: 72px 0;
+  padding-left: 20px;
+}
+
+.part2 {
+  padding: 40px 0px 40px 0px;
+}
+
+.info-1 {
+  background-color: #e5e5e5;
+  padding-right: 74px;
+  border-right: 4px solid #e0e0e0;
+}
+
+.info-2 {
+  background-color: #e5e5e5;
+  padding-left: 22px;
+  /* border-left: 2px solid #e0e0e0; */
+}
+
+.info-1 > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 48px;
+}
+
+.info-1 button {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #c69946;
+  border-bottom: 2px solid #c69946;
+  background-color: transparent;
+  text-align: center;
+}
+
+.info-1 button svg {
+  margin-top: 5px;
+}
+
+.combine p {
+  color: #828282;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.combine h1 {
+  color: #3f3e44;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.social-media {
+  gap: 12px !important;
+  margin-top: 112px;
+  color: #9f6236;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Sen", sans-serif;
+  align-items: normal !important;
+  padding-right: 126px;
+}
+
+.pad-left {
+  margin-left: 3px;
+}
+
+/* ------------------------------- Form Section ------------------------------- */
+
+.margin {
+  margin-right: 44px;
+}
+
+.form p {
+  color: #828282;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 1px;
+}
+
+.form > div {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+  /* margin-left: 4px; */
+}
+.mar-botom {
+  line-height: 19px !important;
+}
+.input-mail,
+.input-name {
+  width: 493px;
+  height: 64px;
+  display: flex;
+  gap: 22px;
+  padding-left: 28px;
+  font-size: 14px;
+}
+
+.input-mail input,
+.input-name input {
+  width: 367px;
+  height: 60px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-family: "Sen", sans-serif;
+}
+.input-name {
+  margin-left: 2px;
+}
+.input-mail {
+  margin-bottom: 16px !important;
+  margin-left: 4px;
+}
+
+.input-message textarea {
+  width: 495px;
+  height: 114px;
+  border: 1px solid #e5e5e5;
+  padding: 25px 0 0 30px;
+  font-size: 16px;
+  font-family: "Sen", sans-serif;
+}
+
+.submit button {
+  height: 50px;
+  width: 130px;
+  color: #c69946;
+  cursor: pointer;
+  border: 1px solid #c69946;
+  border-bottom: 2px solid #c69946;
+  background-color: transparent;
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 2px;
+  padding-bottom: 2px;
+  padding-right: 1px;
+}
+
+/* ------------------------------- Footer ------------------------------- */
+footer {
+  background-color: #343338;
+}
+.footer-1 {
+  display: flex;
+  background-color: #343338;
+  justify-content: space-between;
+  align-items: center;
+  height: 144px;
+  gap: 500px;
+  margin-top: 64px;
+  padding: 0 56px;
+}
+
+/* .footer-1 > img {
+  margin-top: 2px;
+} */
+
+.links {
+  margin-top: 47px;
+  margin-left: 10px;
+}
+.links ul {
+  display: inline-flex;
+  gap: 46px;
+  color: #ffffff;
+}
+
+.copyright {
+  border-top: 1px solid white;
+  height: 57px;
+  background-color: #343338;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  gap: 590px;
+  padding: 0 56px 5px 56px;
+}
+
+.privacy {
+  display: flex;
+}
+
+pre {
+  font-family: "Sen", sans-serif;
+  cursor: pointer;
+}
